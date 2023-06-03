@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "570486325548",
+    "firebase_url": "https://final-project--ta-default-rtdb.firebaseio.com",
+    "project_id": "final-project--ta",
+    "storage_bucket": "final-project--ta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570486325548:android:b506c1fae77de4be5aac89",
+        "android_client_info": {
+          "package_name": "com.fimo.aidentist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570486325548-obb9egsdttm039qvcb6fmq1an1kpli65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2y8ffJWyMo8doKCyf5FVpvjax9RaOBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570486325548-obb9egsdttm039qvcb6fmq1an1kpli65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

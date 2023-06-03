@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/background_button_accent.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/background_button_accent_disco.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/background_button_accent_healt.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/background_button_accent_v2.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/background_indicator_disabled.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/bottom_nav_colors.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/box.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/box_accent.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/box_category.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/box_doctor_list.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/box_home.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/box_nav.xml" value="0.1505" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_arrow_back.xml" value="0.123" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_baseline_phone.xml" value="0.1485" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_camera_2_hd.xml" value="0.138" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_camera_hd.xml" value="0.123" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_chat_hd.xml" value="0.123" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_clean_teeth_hd.xml" value="0.1725" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_disease_teeth.xml" value="0.177" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/drawable/ic_lock.xml" value="0.1485" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout-v23/fragment_blank_analisis.xml" value="0.25" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_boarding.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_camera.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_camera_result.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_daily_treatment.xml" value="0.2" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_doctor.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_doctor_profile.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_main.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_offline_consultation.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_online_consultation.xml" value="0.2837370242214533" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_settings.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/activity_theme.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/blank_home.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/blank_progress.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_analisis.xml" value="0.4" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_analisis2.xml" value="0.36813922356091033" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_analisis3.xml" value="0.4" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_blank_analisis.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_blank_treatment.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_doctor.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_home.xml" value="0.18596491228070175" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_information.xml" value="0.2662037037037037" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_message.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_scan_treatment.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_shimmer.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/fragment_treatment.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/item_list_dropdown.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/item_message.xml" value="0.1453125" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/item_row_date.xml" value="0.6" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/item_row_doctor.xml" value="0.33176470588235296" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/item_row_hour.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/layout/layout_camera.xml" value="0.2" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
+        <entry key="..\:/Users/yulfi/StudioProjects/Capstone/AiDentist/MD/app/src/main/res/mipmap-anydpi-v26/ic_launcher_aidentist_round.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/FreeProject/TA-structure-cleaning/TA-structure-cleaning/app/src/main/res/drawable/ic_verified.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/FreeProject/TA-structure-cleaning/TA-structure-cleaning/app/src/main/res/layout/activity_login.xml" value="0.11875" />
+        <entry key="..\:/Users/yulfi/StudioProjects/FreeProject/TA-structure-cleaning/TA-structure-cleaning/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/yulfi/StudioProjects/FreeProject/TA-structure-cleaning/TA-structure-cleaning/app/src/main/res/layout/fragment_home.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/yulfi/StudioProjects/FreeProject/TA-structure-cleaning/TA-structure-cleaning/app/src/main/res/layout/fragment_profile.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_boarding.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_camera.xml" value="0.1" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_camera_result.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_daily_treatment.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_doctor.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_doctor_profile.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_login.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_main.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_offline_consultation.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_online_consultation.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/activity_sign_up.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/blank_home.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/blank_progress.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_analisis.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_analisis2.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_analisis3.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_blank_analisis.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_blank_treatment.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_information.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_message.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_profile.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_scan_treatment.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_shimmer.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/fragment_treatment.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/item_list_dropdown.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/item_message.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/item_row_date.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/item_row_doctor.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/item_row_hour.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/layout/layout_camera.xml" value="0.36354166666666665" />
+        <entry key="..\:/Users/yulfi/StudioProjects/TA/MD AiDentist/app/src/main/res/menu/bottom_nav_menu.xml" value="0.24427083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

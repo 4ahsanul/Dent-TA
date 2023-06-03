@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.fimo.aidentist.ui.navigation.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.fimo.aidentist.ui.navigation.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/actionUpdateEmail"
+            app:destination="@id/updateEmailFragment" />
+        <action
+            android:id="@+id/actionChangePassword"
+            app:destination="@id/changePasswordFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/cameraActivity"
+        android:name="com.fimo.aidentist.ui.navigation.camera.CameraActivity"
+        android:label="activity_camera"
+        tools:layout="@layout/activity_camera" />
+    <activity
+        android:id="@+id/cameraResultActivity"
+        android:name="com.fimo.aidentist.ui.navigation.camera.CameraResultActivity"
+        android:label="activity_camera_result"
+        tools:layout="@layout/activity_camera_result" />
+    <fragment
+        android:id="@+id/analisisFragment"
+        android:name="com.fimo.aidentist.ui.analisis.AnalisisFragment"
+        android:label="AnalisisFragment" />
+    <fragment
+        android:id="@+id/updateEmailFragment"
+        android:name="com.fimo.aidentist.ui.navigation.profile.UpdateEmailFragment"
+        android:label="fragment_update_email"
+        tools:layout="@layout/fragment_update_email" >
+        <action
+            android:id="@+id/actionEmailUpdated"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.fimo.aidentist.ui.navigation.profile.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" >
+        <action
+            android:id="@+id/actionPasswordChanged"
+            app:destination="@id/profileFragment" />
+    </fragment>
+</navigation>
