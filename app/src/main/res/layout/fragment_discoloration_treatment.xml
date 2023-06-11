@@ -86,13 +86,14 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
-                            android:src="@drawable/ic_time_service" />
+                            android:src="@drawable/ic_time_service"
+                            android:contentDescription="@string/image_guide"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Dietary Habit"
+                            android:text="@string/dietary_habit"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -117,13 +118,14 @@
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
                             android:src="@drawable/ic_cup_coco"
-                            app:tint="@color/orange_peel" />
+                            app:tint="@color/orange_peel"
+                            android:contentDescription="@string/image_guide"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Oil Pulling"
+                            android:text="@string/oil_pulling"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -148,13 +150,14 @@
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
                             android:src="@drawable/ic_cup_coco"
-                            app:tint="@color/blue_ivy" />
+                            app:tint="@color/blue_ivy"
+                            android:contentDescription="@string/image_guide"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Brushing Teeth"
+                            android:text="@string/brushing_teeth"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -179,13 +182,14 @@
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
                             android:src="@drawable/ic_cup_coco"
-                            app:tint="@color/orange_yellow" />
+                            app:tint="@color/orange_yellow"
+                            android:contentDescription="@string/image_guide"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Using Hydrogen Peroxide"
+                            android:text="@string/hydrogen_peroxide"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -209,13 +213,14 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
-                            android:src="@drawable/ic_time_service" />
+                            android:src="@drawable/ic_time_service"
+                            android:contentDescription="@string/image_guide"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="High Fiber Foods"
+                            android:text="@string/high_fiber_foods"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -255,7 +260,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Dietary Habit"
+                        android:text="@string/dietary_habit"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -273,7 +278,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Mengubah pola makan dengan tidak memakan makanan yang menodai gigi dapat mencegah pewarnaan lebih lanjut. Makanan dan minuman yang mengandung tanin, seperti teh, kopi, dan soda hitam, dapat menodai gigi."
+                        android:text="@string/dietary_habit_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -306,7 +311,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Oil Pulling"
+                        android:text="@string/oil_pulling"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -324,7 +329,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Berkumur dengan minyak kelapa diketahui dapat memutihkan gigi, menyegarkan nafas, dan membunuh bakteri mulut. Ambil 1 sendok makan minyak kelapa ke mulut, biarkan larut, dan kumur dengan lembut selama 15-30 menit. Muntahkan minyak setelah selesai, lalu bilas dengan air hangat, dan gosok gigi."
+                        android:text="@string/oil_pulling_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -358,7 +363,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Brushing Teeth"
+                        android:text="@string/brushing_teeth"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -376,7 +381,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Kebiasaan menyikat gigi secara rutin selama 2 menit, terutama setelah mengonsumsi makanan dan minuman pemicu noda gigi, bisa mengatasi masalah noda pada gigi."
+                        android:text="@string/brushing_teeth_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -409,7 +414,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Hydrogen Peroxide"
+                        android:text="@string/hydrogen_peroxide"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -427,7 +432,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Zat ini seringkali dapat ditemukan pada obat kumur, seperti Listerine atau Coolgate. Gunakan setelah menggosok gigi, dengan ini pencegahan noda gigi akan lebih maksimal."
+                        android:text="@string/hydrogen_peroxide_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -461,7 +466,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="High Fiber Foods"
+                        android:text="@string/high_fiber_foods"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -479,7 +484,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Mengonsumsi makanan berserat tinggi dapat membantu menetralisir asam pada gigi dan meelindungi enamel pada gigi. Makanan yang berserat tinggi diantaranya adalah Kacang, Brokoli, Alpukat, Apel, dan masih banyak lagi."
+                        android:text="@string/high_fiber_foods_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"

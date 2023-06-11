@@ -127,7 +127,7 @@
         android:layout_marginTop="8dp"
         android:drawableLeft="@drawable/ic_baseline_camera_alt_24"
         android:drawableTint="@color/white"
-        android:text="Ambil Gambar"
+        android:text="@string/take_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infoData" />

@@ -130,7 +130,7 @@
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/nunito_regular"
                     android:justificationMode="inter_word"
-                    android:text="@string/Risk_Perio"
+                    android:text="@string/risk_perio"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="parent"

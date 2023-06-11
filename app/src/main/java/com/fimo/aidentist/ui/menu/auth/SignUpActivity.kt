@@ -60,6 +60,7 @@ class SignUpActivity : AppCompatActivity() {
             ObjectAnimator.ofFloat(binding.emailEditTextLayout, View.ALPHA, 1F).setDuration(500)
         val passwordInput =
             ObjectAnimator.ofFloat(binding.passwordEditTextLayout, View.ALPHA, 1F).setDuration(500)
+        val repassInput = ObjectAnimator.ofFloat(binding.repassEditTextLayout, View.ALPHA, 1F).setDuration(500)
         val button = ObjectAnimator.ofFloat(binding.buttonSignUp, View.ALPHA, 1F).setDuration(500)
         val signupTitle =
             ObjectAnimator.ofFloat(binding.tvTittleLogin, View.ALPHA, 15F).setDuration(500)
@@ -71,6 +72,7 @@ class SignUpActivity : AppCompatActivity() {
                 title,
                 emailInput,
                 passwordInput,
+                repassInput,
                 button,
                 signupTitle,
                 signUpButton

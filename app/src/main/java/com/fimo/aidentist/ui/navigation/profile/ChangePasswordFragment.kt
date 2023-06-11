@@ -40,11 +40,11 @@ class ChangePasswordFragment : Fragment() {
         }
 
         binding.btnAuth.setOnClickListener {
-            val password = binding.etPassword.text.toString().trim()
+            val password = binding.passwordEditText.text.toString().trim()
 
             if (password.isEmpty()) {
-                binding.etPassword.error = "Password harus diisi"
-                binding.etPassword.requestFocus()
+                binding.passwordEditText.error = "Password harus diisi"
+                binding.passwordEditText.requestFocus()
                 return@setOnClickListener
             }
 
@@ -56,19 +56,20 @@ class ChangePasswordFragment : Fragment() {
                         binding.layoutNewPassword.visibility = View.VISIBLE
 
                         binding.btnUpdate.setOnClickListener { view ->
-                            val newPassword = binding.etNewPassword.text.toString().trim()
+                            val newPassword = binding.newPasswordEditText.text.toString().trim()
                             val newPasswordConfirm =
-                                binding.etNewPasswordConfirm.text.toString().trim()
+                                binding.confirmNewPasswordEditText.text.toString().trim()
 
                             if (newPassword.isEmpty() || newPassword.length < 6) {
-                                binding.etNewPassword.error = "Password harus lebih dari 6 karakter"
-                                binding.etNewPassword.requestFocus()
+                                binding.newPasswordEditText.error =
+                                    "Password harus lebih dari 6 karakter"
+                                binding.newPasswordEditText.requestFocus()
                                 return@setOnClickListener
                             }
 
                             if (newPassword != newPasswordConfirm) {
-                                binding.etNewPasswordConfirm.error = "Password tidak sama"
-                                binding.etNewPasswordConfirm.requestFocus()
+                                binding.confirmNewPasswordEditText.error = "Password tidak sama"
+                                binding.confirmNewPasswordEditText.requestFocus()
                                 return@setOnClickListener
                             }
 
@@ -93,8 +94,8 @@ class ChangePasswordFragment : Fragment() {
                             }
                         }
                     } else if (reauthTask.exception is FirebaseAuthInvalidCredentialsException) {
-                        binding.etPassword.error = "Password Salah"
-                        binding.etPassword.requestFocus()
+                        binding.passwordEditText.error = "Password Salah"
+                        binding.passwordEditText.requestFocus()
                     } else {
                         Toast.makeText(
                             activity,

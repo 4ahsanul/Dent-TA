@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "570486325548-rdsq66icopt982tm618oag1ti68u258c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fimo.aidentist",
+            "certificate_hash": "deef28e451ea22af74d80edb894c43075aa01828"
+          }
+        },
+        {
           "client_id": "570486325548-obb9egsdttm039qvcb6fmq1an1kpli65.apps.googleusercontent.com",
           "client_type": 3
         }

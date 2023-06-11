@@ -20,7 +20,7 @@
             android:background="@color/white"
             android:contentDescription="@string/back_button"
             android:src="@drawable/ic_arrow_back"
-            app:tint="@color/black"/>
+            app:tint="@color/black" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,18 +28,19 @@
             android:layout_marginStart="30dp"
             android:fontFamily="@font/nunito_bold"
             android:text="@string/detail"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
         <!-- Add the delete button/menu item -->
         <ImageView
             android:id="@+id/button_delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:src="@drawable/ic_delete"
-            app:tint="@color/black"
             android:layout_gravity="end"
-            android:layout_marginEnd="16dp"/>
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:contentDescription="@string/delete_image"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/black" />
     </androidx.appcompat.widget.Toolbar>
 
     <ImageView
@@ -50,7 +51,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <TextView
         android:id="@+id/tv_detail_title"

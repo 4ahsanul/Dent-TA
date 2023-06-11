@@ -59,7 +59,7 @@
                     android:justificationMode="inter_word"
                     android:paddingStart="5dp"
                     android:paddingEnd="20dp"
-                    android:text="@string/desc_discoloration"
+                    android:text="@string/discoloration_desc"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="parent"

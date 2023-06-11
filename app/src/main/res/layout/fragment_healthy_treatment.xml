@@ -25,7 +25,7 @@
                 android:layout_height="match_parent"
                 android:fontFamily="@font/nunito_extrabold"
                 android:gravity="center"
-                android:text="@string/healthy_title"
+                android:text="@string/healthy"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -86,13 +86,14 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_time_service" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Dietary Habit"
+                            android:text="@string/dietary_habit"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -116,6 +117,7 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_cup_coco"
                             app:tint="@color/orange_peel" />
 
@@ -123,7 +125,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Eat Fresh Fruit"
+                            android:text="@string/eat_fresh_fruit"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -147,6 +149,7 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_cup_coco"
                             app:tint="@color/blue_ivy" />
 
@@ -154,7 +157,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Brushing Teeth"
+                            android:text="@string/brushing_teeth"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -178,6 +181,7 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_cup_coco"
                             app:tint="@color/orange_yellow" />
 
@@ -185,7 +189,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Using Hydrogen Peroxide"
+                            android:text="@string/hydrogen_peroxide"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -209,13 +213,14 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_time_service" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Chewing Gum"
+                            android:text="@string/chewing_gum"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -255,7 +260,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Dietary Habit"
+                        android:text="@string/dietary_habit"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -273,7 +278,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Makanan atau minuman yang masih panas atau dingin berpotensi untuk merusak gigi. Lebih jauh, hal itu bahkan dapat membuat keretakan gigi yang membuat bakteri dan kuman dapat dengan mudah masuk kedalam struktur gigi."
+                        android:text="@string/dietary_habit_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -306,7 +311,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Eat Fresh Fruit"
+                        android:text="@string/brushing_teeth"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -324,7 +329,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Serat dalam buah-buahan segar dapat membantu membersihkan kotoran dan sisa makanan yang menempel pada gigi."
+                        android:text="@string/brushing_teeth_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -357,7 +362,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Brushing Teeth"
+                        android:text="@string/eat_fresh_fruit"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -375,7 +380,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Kebiasaan menyikat gigi secara rutin selama 2 menit, terutama setelah mengonsumsi makanan dan minuman pemicu noda gigi, bisa mengatasi masalah noda pada gigi."
+                        android:text="@string/eat_fresh_fruit_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -408,7 +413,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Hydrogen Peroxide"
+                        android:text="@string/hydrogen_peroxide"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -426,7 +431,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Zat ini seringkali dapat ditemukan pada obat kumur, seperti Listerine atau Coolgate. Gunakan setelah menggosok gigi, dengan ini pencegahan noda gigi akan lebih maksimal."
+                        android:text="@string/hydrogen_peroxide_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -460,7 +465,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="Chewing Gum"
+                        android:text="@string/chewing_gum"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -478,7 +483,7 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="Mengunyah permen karet dapat melatih otot mulut, merangsang produksi air liur. Meningkatnya kuantitas air liur dapat membersihkan partikel asam dari sisa makanan di dalam mulut. Perlu diingat, hal ini hanya bisa dihasilkan oleh permen karet yang tidak mengandung gula."
+                        android:text="@string/chewing_gum_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"

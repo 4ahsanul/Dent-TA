@@ -45,11 +45,11 @@ class UpdateEmailFragment : Fragment() {
         }
 
         binding.btnAuth.setOnClickListener {
-            val password = binding.etPassword.text.toString().trim()
+            val password = binding.passwordEditText.text.toString().trim()
 
             if (password.isEmpty()) {
-                binding.etPassword.error = "Password harus diisi"
-                binding.etPassword.requestFocus()
+                binding.passwordEditText.error = "Password harus diisi"
+                binding.passwordEditText.requestFocus()
                 return@setOnClickListener
             }
 
@@ -60,8 +60,8 @@ class UpdateEmailFragment : Fragment() {
                         binding.layoutPassword.visibility = View.GONE
                         binding.layoutEmail.visibility = View.VISIBLE
                     } else if (it.exception is FirebaseAuthInvalidCredentialsException) {
-                        binding.etPassword.error = "Password Salah"
-                        binding.etPassword.requestFocus()
+                        binding.passwordEditText.error = "Password Salah"
+                        binding.passwordEditText.requestFocus()
                     } else {
                         Toast.makeText(activity, "${it.exception?.message}", Toast.LENGTH_SHORT)
                             .show()
@@ -70,16 +70,16 @@ class UpdateEmailFragment : Fragment() {
             }
 
             binding.btnUpdate.setOnClickListener { view ->
-                val email = binding.etEmail.text.toString().trim()
+                val email = binding.emailEditText.text.toString().trim()
 
                 if (email.isEmpty()) {
-                    binding.etEmail.error = getString(R.string.email_warn)
-                    binding.etEmail.requestFocus()
+                    binding.emailEditText.error = getString(R.string.email_warn)
+                    binding.emailEditText.requestFocus()
                     return@setOnClickListener
                 }
                 if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                    binding.etEmail.error = getString(R.string.email_invalid)
-                    binding.etEmail.requestFocus()
+                    binding.emailEditText.error = getString(R.string.email_invalid)
+                    binding.emailEditText.requestFocus()
                     return@setOnClickListener
                 }
 

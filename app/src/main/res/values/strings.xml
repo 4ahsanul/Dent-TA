@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AiDent</string>
+    <string name="app_name">Dent-TA</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -10,41 +10,144 @@
     <string name="title_on_boarding_third_slide">Easy To Use</string>
 
     <!--  OnBoarding Description  -->
-    <string name="description_on_boarding_first_slide">Identify The Type of Oral Disease  by Taking a Photo, Ai Dentist  Will Screening and Analyse</string>
+    <string name="description_on_boarding_first_slide">Identify The Type of Oral Disease  by Taking a Photo, Dent-TA  Will Screening and Analyse</string>
     <string name="description_on_boarding_second_slide">Daily Treatment Suggestion Before and After Dental-Checkup</string>
     <string name="description_on_boarding_third_slide">Simple and Easy to Use for You, Use It Anytime and Anywhere You Like</string>
 
-    <!--  Button  -->
+    <!--  Image Content Description  -->
+    <string name="welcome_image_login">Welcome Image Login</string>
+    <string name="welcome_image_signup">Welcome Image SignUp</string>
+    <string name="image_guide">Gambar Arahan</string>
+
+    <!--  Toolbar Button  -->
     <string name="back_button">Tombol Kembali</string>
     <string name="edit_button">Edit Button</string>
+
+    <!--  Camera  -->
+    <string name="retake">Retake</string>
+    <string name="check">Check</string>
+    <string name="close_camera">Close Camera</string>
+    <string name="camera">Kamera</string>
+    <string name="switch_camera">Ganti Kamera</string>
+    <string name="failed_taken">Gagal mengambil gambar</string>
+
+    <!-- Camera Result & Blank Home  -->
+    <string name="guide1">• Pastikan Anda mengunggah foto gigi yang diambil menggunakan kamera.</string>
+    <string name="guide2">• Gambar yang akan digunakan adalah bagian depan gigi.</string>
+    <string name="guide3">• Pastikan saat pengambilan gambar mengikuti guideline.</string>
+    <string name="guide4">• Pastikan saat mengambil gambar memiliki pencahayan yang cukup.</string>
+    <string name="take_image">Ambil Gambar</string>
+
+    <!--  Daily Treatment Blank  -->
+    <string name="daily_treatment">Daily Treatment</string>
+
+    <!--  Detail History  -->
+    <string name="detail">Detail</string>
+    <string name="delete_image">Hapus Gambar</string>
+
+    <!--  History  -->
+    <string name="history">History</string>
+
+    <!--  Login  -->
+    <string name="login">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="button_login">Masuk</string>
+    <string name="dont_have_acc">Belum punya akun?</string>
+
+    <!--  Sign Up  -->
+    <string name="sign_up">Sign Up</string>
+    <string name="name_hint">Nama</string>
+    <string name="button_signup">Daftar</string>
+    <string name="have_acc">Sudah Punya Akun?</string>
+    <string name="pass_not_same">Password tidak sama</string>
+    <string name="register_success">Register Success</string>
+    <string name="form_warn">Tidak boleh ada kolom yang kosong</string>
+
+    <!--  Analysis Screen  -->
+    <string name="apakah_berbahaya">Apakah Berbahaya?</string>
+    <string name="similar">Similar</string>
+
+    <!--  Periodontal Screen  -->
+    <string name="periodontal">Periodontal</string>
+    <string name="periodontal_desc">Periodontitis merupakan salah satu komplikasi dari radang gusi yang tidak terobati. Jika kondisi ini terjadi dalam jangka panjang, jaringan di sekitar gusi dan gigi akan rusak sehingga menyebabkan gigi tanggal.</string>
+    <string name="risk_perio">Seiring waktu, bakteri di karang gigi tadi akan menghasilkan racun yang dapat menyebabkan peradangan dan iritasi gusi di sekitar gigi (gingiva). Jika tidak segera diobati, radang gusi tersebut dapat menyebabkan terbentuknya celah di gusi yang memisahkan jaringan gusi dengan gigi. Celah tersebut menyebabkan bakteri dapat menginfeksi lebih dalam lagi sehingga merusak jaringan dan tulang di dalam gusi.</string>
+
+    <!--  Discoloration Screen  -->
+    <string name="discoloration">Discoloration</string>
+    <string name="discoloration_desc">Diskolorasi ekstrinsik disebabkan karena adanya penodaan (staining) akibat warna bahan makanan dan minuman yang dikonsumsi. Sehingga menyebabkan terbentuknya noda yang menempel pada permukaan gigi maupun bahan tambal gigi.</string>
+    <string name="risk_dicoloration">Diskolorasi pada gigi dapat diperbaiki dengan menggunakan bahan pemutih gigi atau yang disebut dengan bleaching. Bleaching adalah tindakan untuk meningkatkan warna gigi menjadi lebih putih dari sebelumnya. Jenisnya ada berbagai macam, antara lain menggunakan zat kimia hidrogen peroksida dan karbamid peroksida dengan berbagai konsentrasi.</string>
+
+    <!--  Healthy Screen  -->
+    <string name="healthy">Healthy</string>
+    <string name="healthy_desc">Healthy Teeth, bagian atas dan bawah gigi tetap utuh, tidak ada lubang ataupun lekukan yang membuat kasar. Bebas plak, gigi yang putih dan tidak ada noda di sana-sini.</string>
+    <string name="risk_heath">Gigi anda termasuk dalam gigi sehat, untuk meningkatkanya, lakukan beberapa perawatan gigi seperti, gosok gigi secara teratur, dan menjaga makanan yang dimakan agar gigi anda tetap sehat.</string>
+
+    <!--  Analysis Blank  -->
+    <string name="check_oral_health">Check Oral Health!</string>
+    <string name="guide_home1">• Mulai check kesehatan gigi sekarang juga.</string>
+    <string name="guide_home2">• Cegah kerusakan gigi lebih awal dengan perawatan mandiri.</string>
+    <string name="guide_home3">• Dapatkan perawatan mandiri sesuai dengan kesehatan gigi anda.</string>
+
+    <!--  Treatment Screen  -->
+    <string name="self_care">Self Care</string>
+    <string name="dietary_habit">Dietary Habit</string>
+    <string name="dietary_habit_desc">Makanan atau minuman yang masih panas atau dingin berpotensi untuk merusak gigi. Lebih jauh, hal itu bahkan dapat membuat keretakan gigi yang membuat bakteri dan kuman dapat dengan mudah masuk kedalam struktur gigi.</string>
+    <string name="brushing_teeth">Brushing Teeth</string>
+    <string name="brushing_teeth_desc">Kebiasaan menyikat gigi secara rutin selama 2 menit, terutama setelah mengonsumsi makanan dan minuman pemicu noda gigi, bisa mengatasi masalah noda pada gigi.</string>
+    <string name="flossing">Flossing</string>
+    <string name="flossing_desc">Menggosok ruas gigi menggunakan benang gigi dapat membantu mengurangi risiko yang ditimbulkan plak. Selain itu juga dapat membersihkan ruang antar gigi dari bakteri yang bisa menyebabkan gigi berlubang.</string>
+    <string name="hydrogen_peroxide">Hydrogen Peroxide</string>
+    <string name="hydrogen_peroxide_desc">Zat ini seringkali dapat ditemukan pada obat kumur, seperti Listerine atau Coolgate. Gunakan setelah menggosok gigi, dengan ini pencegahan noda gigi akan lebih maksimal.</string>
+    <string name="dentist_checkup">Dental Checkup</string>
+    <string name="dentist_checkup_desc">Melakukan pemeriksaan ke Dokter gigi untuk mendapatkan perawatan dan saran lebih lanjut.</string>
+    <string name="change_brush">Change Brush</string>
+    <string name="change_brush_desc">Ganti sikat gigi setiap 3 bulan sekali. Setelah 3 bulan, umumnya bulu sikat gigi sudah mulai usang, sehingga perlu diganti yang baru. Sikat gigi yang usang dapat menjadi sarang virus dan bakteri.</string>
+
+    <!--  Periodontal Treatment  -->
+    <string name="periodontal_treatment">Berikut adalah cara untuk merawat gigi Periodontitis secara mandiri</string>
+    <string name="salt_water">Salt Water</string>
+    <string name="salt_water_desc">Air garam dapat digunakan sebagai obat kumur yang sangak efektif sebagai antiseptik. Ambil segelas air hangat, tambahkan 1 sendok teh garam dan aduk hingga merata, kemudian kumur-kumur selama 30-40 detik, pastikan tidak meminum air ini, dan muntahkan saat selesai. Ulangi proses ini 2 - 3 kali sehari.</string>
+    <string name="oil_pulling">Oil Pulling</string>
+    <string name="oil_pulling_desc">Berkumur dengan minyak kelapa diketahui dapat memutihkan gigi, menyegarkan nafas, dan membunuh bakteri mulut. Ambil 1 sendok makan minyak kelapa ke mulut, biarkan larut, dan kumur dengan lembut selama 15-30 menit. Muntahkan minyak setelah selesai, lalu bilas dengan air hangat, dan gosok gigi.</string>
+    <string name="tea_tree_oil">Tea Tree Oil</string>
+    <string name="tea_tree_oil_desc">Minyak pohon teh, merupakan salah satu antibakterial yang berpontesi untuk menghancurkan bakteri di dalam mulut. Ambil segelas air hangat, tambahkan 1 sendok teh minyak teh dan bilas mulut sekitar 60 detik. Muntahkan setelah selesai, dan dilanjutkan dengan gosok gigi seperti biasa.</string>
+    <string name="turmeric">Turmeric</string>
+    <string name="turmeric_desc">Kunyit mungkin seperti bumbu dapur biasa, namun sebenarnya dapat digunakan untuk membantu meringankan bahkan mengobata penyakit gigi. Kunyit mengandung Kurkumin yang merupakan anti-inflamasi yang sangat kuat.</string>
+    <string name="oral_probiotics">Oral Probiotics</string>
+    <string name="oral_probiotics_desc">Mengkomsusi probiotik oral dapat membantu mengurangi penumpukan plak pada gigi dan mengurangi bakteri, ditambah lagi dapat meredakan peradangan yang disebabkan oleh penyakit gusi.</string>
+    <string name="avoid_smoking">Avoid Smoking</string>
+    <string name="avoid_smoking_desc">Merokok merupakan penyebab kerusakan gigi yang paling parah, karena dampak dari merokok untuk kesehatan gigi sangat banyak. Diantaranya adalah, kerusakan pada gigi, peradangan pada gusi, gigi tanggal, noda pada gigi, bau mulut, hingga dapat menyebabkan kanker mulut. </string>
+
+    <!--  Discoloration Treatment  -->
+    <string name="discoloration_treatment">Berikut adalah cara untuk merawat gigi Diskolorasi secara mandiri</string>
+
+    <!--  Healthy Treatment  -->
+    <string name="healthy_treatment">Berikut adalah cara untuk merawat gigi, agar tetap sehat</string>
+    <string name="eat_fresh_fruit">Eat Fresh Fruit</string>
+    <string name="eat_fresh_fruit_desc">Serat dalam buah-buahan segar dapat membantu membersihkan kotoran dan sisa makanan yang menempel pada gigi.</string>
+    <string name="chewing_gum">Chewing Gum</string>
+    <string name="chewing_gum_desc">Mengunyah permen karet dapat melatih otot mulut, merangsang produksi air liur. Meningkatnya kuantitas air liur dapat membersihkan partikel asam dari sisa makanan di dalam mulut. Perlu diingat, hal ini hanya bisa dihasilkan oleh permen karet yang tidak mengandung gula.</string>
+
+    <!--  Change Password  -->
+    <string name="change_password">Ganti Password</string>
+    <string name="enter_new_password">Masukkan Password Baru</string>
+    <string name="new_password">Password baru</string>
+    <string name="confirm_password">Konfirmasi password</string>
+    <string name="update">Update</string>
+
+    <!--  Change Email  -->
+    <string name="change_email">Ganti Email</string>
+    <string name="enter_your_password">Masukkan Password Anda</string>
+    <string name="enter_new_email">Masukkan Email Baru</string>
 
     <!--  Extra  -->
     <string name="poin">Poin</string>
     <string name="doctor_name_dummy">Hand Oko</string>
     <string name="dummy_user_name">Joko Santoso</string>
 
-    <!--  Guide Photo  -->
-    <string name="image_guide">Gambar Arahan</string>
-    <string name="guide1">• Pastikan Anda mengunggah foto gigi yang diambil menggunakan kamera.</string>
-    <string name="guide2">• Gambar yang akan digunakan adalah bagian depan gigi.</string>
-    <string name="guide3">• Pastikan saat pengambilan gambar mengikuti guideline.</string>
-    <string name="guide4">• Pastikan saat mengambil gambar memiliki pencahayan yang cukup.</string>
-    <string name="guide_home1">• Mulai check kesehatan gigi sekarang juga.</string>
-    <string name="guide_home2">• Cegah kerusakan gigi lebih awal dengan perawatan mandiri.</string>
-    <string name="guide_home3">• Dapatkan perawatan mandiri sesuai dengan kesehatan gigi anda.</string>
-
-    <!--  Member List  -->
-    <string name="app_member">AiDentist Member</string>
-    <string name="member1">• Andre Citro Febriliyan Lanyak (M2120J1528)  </string>
-    <string name="member2">• Muhammad Rahaji Jhaerol (M2120F1522) </string>
-    <string name="member3">• Filfimo Yulfiz Ahsanul Hulqi (A2120F1521) </string>
-    <string name="member4">• A.Aksa Nur Irwan (A2272J2365) </string>
-    <string name="member5">• A. Muh. Fitrah Asfar (C2272J2366) </string>
-    <string name="member6">• M. Zulfikar Novaly Rahman (C2135J1624) </string>
-
     <!--  Service  -->
     <string name="services">Services</string>
-    <string name="self_care">Self Care</string>
     <string name="medicine_reminder">Medicine\nReminder</string>
     <string name="information">Information</string>
 
@@ -53,13 +156,7 @@
     <string name="information_title">Judul</string>
     <string name="see_more">Selengkapnya</string>
     <string name="upload_teeth">Upload Teeth</string>
-    <string name="daily_treatment">Daily Treatment</string>
     <string name="treatment_warn">Harap lakukan scan gigi terlebih dahulu untuk mendapatkan rekomendasi perawatan harian</string>
-
-    <!--  Camera  -->
-    <string name="camera">Kamera</string>
-    <string name="switch_camera">Ganti Kamera</string>
-    <string name="failed_taken">Gagal mengambil gambar</string>
 
     <!--  Self Care  -->
     <string name="month_year">July 2022</string>
@@ -95,24 +192,6 @@
     <string name="offline_consultation">Offline\nConsultation</string>
     <string name="offline_consultation_toolbar">Offline Consultation</string>
     <string name="tos_cosultation">Sebelum melakukan konsultasi, pastikan jenis konsultasi yang anda pilih berdasarkan kebutuhan anda.</string>
-
-    <!--  Login  -->
-    <string name="welcome_image_login">Welcome Image Login</string>
-    <string name="login">Login</string>
-    <string name="email_hint">Email</string>
-    <string name="password_hint">Password</string>
-    <string name="button_login">Masuk</string>
-    <string name="dont_have_acc">Belum punya akun?</string>
-
-    <!-- Sign Up  -->
-    <string name="welcome_image_signup">Welcome Image SignUp</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="name_hint">Nama</string>
-    <string name="button_signup">Daftar</string>
-    <string name="have_acc">Sudah Punya Akun?</string>
-    <string name="pass_not_same">Password tidak sama</string>
-    <string name="register_success">Register Success</string>
-    <string name="form_warn">Tidak boleh ada kolom yang kosong</string>
 
     <!--  Home  -->
     <string name="greetings_user">Halo Sobat Gigi</string>
@@ -156,10 +235,6 @@
     <string name="date">2</string>
     <string name="clock">08:00</string>
 
-    <!--  Disease  -->
-    <string name="discoloration">Discoloration</string>
-    <string name="periodontal">Periodontal</string>
-
     <!--  Analysis  -->
     <string name="early_screening">Early Screening</string>
     <string name="_35">35%</string>
@@ -168,36 +243,29 @@
     <string name="likely_periodontal">*Likely Periodontal</string>
     <string name="icon_dental_statistik">Icon Dental Statistik</string>
     <string name="prediction">Prediction</string>
-    <string name="apakah_berbahaya">Apakah Berbahaya?</string>
-    <string name="similar">Similar</string>
     <string name="desc_disease_string">Cavities are permanently damaged areas in the hard surface of your teeth that develop into tiny openings or holes.</string>
     <string name="desc_berbahaya">Jika dibiarkan terus menerus, bercak putih akan berubah menjadi bercak kecoklatan yang menyebar dan membentuk lubang pada gigi. Jika tidak ditangani, karies ini dapat menyebabkan nyeri, gigi tanggal, infeksi berbahaya, dan bahkan kematian.</string>
     <string name="disease">Disease</string>
-    <string name="check_oral_health">Check Oral Health!</string>
     <string name="input_error">Isi data terlebih dahulu</string>
-    <string name="periodontal_desc">Periodontitis merupakan salah satu komplikasi dari radang gusi yang tidak terobati. Jika kondisi ini terjadi dalam jangka panjang, jaringan di sekitar gusi dan gigi akan rusak sehingga menyebabkan gigi tanggal.</string>
-    <string name="periodontal_treatment">Berikut adalah cara untuk merawat gigi Periodontitis secara mandiri</string>
-    <string name="Risk_Perio">Seiring waktu, bakteri di karang gigi tadi akan menghasilkan racun yang dapat menyebabkan peradangan dan iritasi gusi di sekitar gigi (gingiva). Jika tidak segera diobati, radang gusi tersebut dapat menyebabkan terbentuknya celah di gusi yang memisahkan jaringan gusi dengan gigi. Celah tersebut menyebabkan bakteri dapat menginfeksi lebih dalam lagi sehingga merusak jaringan dan tulang di dalam gusi.</string>
     <string name="discoloration_title">Discoloration</string>
-    <string name="desc_discoloration">Diskolorasi ekstrinsik disebabkan karena adanya penodaan (staining) akibat warna bahan makanan dan minuman yang dikonsumsi. Sehingga menyebabkan terbentuknya noda yang menempel pada permukaan gigi maupun bahan tambal gigi.</string>
-    <string name="discoloration_treatment">Berikut adalah cara untuk merawat gigi Diskolorasi secara mandiri</string>
-    <string name="risk_dicoloration">Diskolorasi pada gigi dapat diperbaiki dengan menggunakan bahan pemutih gigi atau yang disebut dengan bleaching. Bleaching adalah tindakan untuk meningkatkan warna gigi menjadi lebih putih dari sebelumnya. Jenisnya ada berbagai macam, antara lain menggunakan zat kimia hidrogen peroksida dan karbamid peroksida dengan berbagai konsentrasi.</string>
     <string name="scan_first">Scan gigi terlebih dahulu ya</string>
-    <string name="healthy_title">Healthy</string>
-    <string name="healthy_treatment">Berikut adalah cara untuk merawat gigi, agar tetap sehat</string>
-    <string name="healthy_desc">Healthy Teeth, bagian atas dan bawah gigi tetap utuh, tidak ada lubang ataupun lekukan yang membuat kasar. Bebas plak, gigi yang putih dan tidak ada noda di sana-sini.</string>
-    <string name="risk_heath">Gigi anda termasuk dalam gigi sehat, untuk meningkatkanya, lakukan beberapa perawatan gigi seperti, gosok gigi secara teratur, dan menjaga makanan yang dimakan agar gigi anda tetap sehat.</string>
     <string name="logo_periodental">Logo Periodental</string>
     <string name="logo_discoloration">Logo Discoloration</string>
     <string name="logo_healthy">Logo Healhty</string>
-    <string name="retake">Retake</string>
-    <string name="check">Check</string>
-    <string name="close_camera">Close Camera</string>
     <string name="repassword_hint">Retype Password</string>
-    <string name="history">History</string>
     <string name="no_data_available">Belum Ada Data Tersimpan</string>
-    <string name="detail">Detail</string>
     <string name="save_profile">Simpan Profile</string>
+
+    <!--  Member List  -->
+    <string name="app_member">AiDentist Member</string>
+    <string name="member1">• Andre Citro Febriliyan Lanyak (M2120J1528)  </string>
+    <string name="member2">• Muhammad Rahaji Jhaerol (M2120F1522) </string>
+    <string name="member3">• Filfimo Yulfiz Ahsanul Hulqi (A2120F1521) </string>
+    <string name="member4">• A.Aksa Nur Irwan (A2272J2365) </string>
+    <string name="member5">• A. Muh. Fitrah Asfar (C2272J2366) </string>
+    <string name="member6">• M. Zulfikar Novaly Rahman (C2135J1624) </string>
+    <string name="high_fiber_foods">High Fiber Foods</string>
+    <string name="high_fiber_foods_desc">Mengonsumsi makanan berserat tinggi dapat membantu menetralisir asam pada gigi dan meelindungi enamel pada gigi. Makanan yang berserat tinggi diantaranya adalah Kacang, Brokoli, Alpukat, Apel, dan masih banyak lagi.</string>
 
     <!--  Database Local  -->
     <string-array name="name">

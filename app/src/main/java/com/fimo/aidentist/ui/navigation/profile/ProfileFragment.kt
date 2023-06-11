@@ -99,8 +99,10 @@ class ProfileFragment : Fragment() {
 
             if (user.isEmailVerified) {
                 binding.icVerified.visibility = View.VISIBLE
+                binding.verifMessage.visibility = View.GONE
             } else {
                 binding.icUnverified.visibility = View.VISIBLE
+                binding.verifMessage.visibility = View.VISIBLE
             }
 
             if (user.phoneNumber.isNullOrEmpty()) {
