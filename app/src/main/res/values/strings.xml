@@ -92,17 +92,26 @@
     <!--  Treatment Screen  -->
     <string name="self_care">Self Care</string>
     <string name="dietary_habit">Dietary Habit</string>
-    <string name="dietary_habit_desc">Makanan atau minuman yang masih panas atau dingin berpotensi untuk merusak gigi. Lebih jauh, hal itu bahkan dapat membuat keretakan gigi yang membuat bakteri dan kuman dapat dengan mudah masuk kedalam struktur gigi.</string>
+    <string name="dietary_habit_desc">Makanan atau minuman yang masih panas atau dingin dan konsumsi makanan dan minuman manis  berpotensi untuk merusak gigi. Lebih jauh, hal itu bahkan dapat membuat keretakan gigi yang membuat bakteri dan kuman dapat dengan mudah masuk kedalam struktur gigi. Lebih baik konsumsi makanan-makanan yang mengandung serat, seperti dalam buah-buahan segar dapat membantu membersihkan kotoran dan sisa makanan yang menempel pada gigi.</string>
+    <string name="hydrogen_peroxide">Hydrogen Peroxide</string>
+    <string name="hydrogen_peroxide_desc">Zat ini seringkali dapat ditemukan pada obat kumur, seperti Listerine atau Coolgate. Gunakan setelah menggosok gigi, dengan ini pencegahan noda gigi akan lebih maksimal.</string>
     <string name="brushing_teeth">Brushing Teeth</string>
     <string name="brushing_teeth_desc">Kebiasaan menyikat gigi secara rutin selama 2 menit, terutama setelah mengonsumsi makanan dan minuman pemicu noda gigi, bisa mengatasi masalah noda pada gigi.</string>
     <string name="flossing">Flossing</string>
     <string name="flossing_desc">Menggosok ruas gigi menggunakan benang gigi dapat membantu mengurangi risiko yang ditimbulkan plak. Selain itu juga dapat membersihkan ruang antar gigi dari bakteri yang bisa menyebabkan gigi berlubang.</string>
-    <string name="hydrogen_peroxide">Hydrogen Peroxide</string>
-    <string name="hydrogen_peroxide_desc">Zat ini seringkali dapat ditemukan pada obat kumur, seperti Listerine atau Coolgate. Gunakan setelah menggosok gigi, dengan ini pencegahan noda gigi akan lebih maksimal.</string>
+    <string name="avoid_smoking">Avoid Smoking</string>
+    <string name="avoid_smoking_desc">Merokok merupakan penyebab kerusakan gigi yang paling parah, karena dampak dari merokok untuk kesehatan gigi sangat banyak. Diantaranya adalah, kerusakan pada gigi, peradangan pada gusi, gigi tanggal, noda pada gigi, bau mulut, hingga dapat menyebabkan kanker mulut. </string>
     <string name="dentist_checkup">Dental Checkup</string>
     <string name="dentist_checkup_desc">Melakukan pemeriksaan ke Dokter gigi untuk mendapatkan perawatan dan saran lebih lanjut.</string>
     <string name="change_brush">Change Brush</string>
     <string name="change_brush_desc">Ganti sikat gigi setiap 3 bulan sekali. Setelah 3 bulan, umumnya bulu sikat gigi sudah mulai usang, sehingga perlu diganti yang baru. Sikat gigi yang usang dapat menjadi sarang virus dan bakteri.</string>
+
+    <!--  Treatment Rule  -->
+    <string name="mandatory">Wajib</string>
+    <string name="two_times_a_day">2x Perhari</string>
+    <string name="optional">Opsional</string>
+    <string name="once_per_six_month">1x/ 6 Bulan</string>
+    <string name="once_per_three_month">1x/ 3 Bulan</string>
 
     <!--  Periodontal Treatment  -->
     <string name="periodontal_treatment">Berikut adalah cara untuk merawat gigi Periodontitis secara mandiri</string>
@@ -116,11 +125,11 @@
     <string name="turmeric_desc">Kunyit mungkin seperti bumbu dapur biasa, namun sebenarnya dapat digunakan untuk membantu meringankan bahkan mengobata penyakit gigi. Kunyit mengandung Kurkumin yang merupakan anti-inflamasi yang sangat kuat.</string>
     <string name="oral_probiotics">Oral Probiotics</string>
     <string name="oral_probiotics_desc">Mengkomsusi probiotik oral dapat membantu mengurangi penumpukan plak pada gigi dan mengurangi bakteri, ditambah lagi dapat meredakan peradangan yang disebabkan oleh penyakit gusi.</string>
-    <string name="avoid_smoking">Avoid Smoking</string>
-    <string name="avoid_smoking_desc">Merokok merupakan penyebab kerusakan gigi yang paling parah, karena dampak dari merokok untuk kesehatan gigi sangat banyak. Diantaranya adalah, kerusakan pada gigi, peradangan pada gusi, gigi tanggal, noda pada gigi, bau mulut, hingga dapat menyebabkan kanker mulut. </string>
 
     <!--  Discoloration Treatment  -->
     <string name="discoloration_treatment">Berikut adalah cara untuk merawat gigi Diskolorasi secara mandiri</string>
+    <string name="high_fiber_foods">High Fiber Foods</string>
+    <string name="high_fiber_foods_desc">Mengonsumsi makanan berserat tinggi dapat membantu menetralisir asam pada gigi dan meelindungi enamel pada gigi. Makanan yang berserat tinggi diantaranya adalah Kacang, Brokoli, Alpukat, Apel, dan masih banyak lagi.</string>
 
     <!--  Healthy Treatment  -->
     <string name="healthy_treatment">Berikut adalah cara untuk merawat gigi, agar tetap sehat</string>
@@ -264,8 +273,6 @@
     <string name="member4">• A.Aksa Nur Irwan (A2272J2365) </string>
     <string name="member5">• A. Muh. Fitrah Asfar (C2272J2366) </string>
     <string name="member6">• M. Zulfikar Novaly Rahman (C2135J1624) </string>
-    <string name="high_fiber_foods">High Fiber Foods</string>
-    <string name="high_fiber_foods_desc">Mengonsumsi makanan berserat tinggi dapat membantu menetralisir asam pada gigi dan meelindungi enamel pada gigi. Makanan yang berserat tinggi diantaranya adalah Kacang, Brokoli, Alpukat, Apel, dan masih banyak lagi.</string>
 
     <!--  Database Local  -->
     <string-array name="name">

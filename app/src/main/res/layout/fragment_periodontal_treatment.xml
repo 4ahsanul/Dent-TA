@@ -50,7 +50,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/treatment_card"
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
+                android:layout_height="440dp"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="16dp"
@@ -62,7 +62,7 @@
                     android:id="@+id/list_treatment_layout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/card_border_treatment"
+                    android:background="@drawable/card_border_periodontal"
                     android:orientation="vertical">
 
                     <TextView
@@ -86,9 +86,137 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
+                            android:src="@drawable/ic_food"
+                            app:tint="@color/cornflower" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="@string/dietary_habit"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/mandatory"
+                            android:textAlignment="textEnd"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="20dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_cup_coco"
-                            app:tint="@color/blue_ivy"
-                            android:contentDescription="@string/image_guide" />
+                            app:tint="@color/blue_ivy" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="@string/brushing_teeth"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/two_times_a_day"
+                            android:textAlignment="textEnd"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="20dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
+                            android:src="@drawable/ic_cup_coco"
+                            app:tint="@color/butterfly_blue" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="@string/hydrogen_peroxide"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/optional"
+                            android:textAlignment="textEnd"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="20dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
+                            android:src="@drawable/ic_cup_coco"
+                            app:tint="@color/arty_click_sky_blue" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="@string/flossing"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/optional"
+                            android:textAlignment="textEnd"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="20dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
+                            android:src="@drawable/ic_cup_coco"
+                            app:tint="@color/orange_yellow" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -101,8 +229,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/nunito_regular"
-                            android:text="2-3x Perhari"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/optional"
                             android:textAlignment="textEnd"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -118,9 +246,9 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_cup_coco"
-                            app:tint="@color/orange_peel"
-                            android:contentDescription="@string/image_guide"/>
+                            app:tint="@color/orange_yellow" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -133,8 +261,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/nunito_regular"
-                            android:text="1x Perhari"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/optional"
                             android:textAlignment="textEnd"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -150,9 +278,9 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_cup_coco"
-                            app:tint="@color/cloudy_grey"
-                            android:contentDescription="@string/image_guide"/>
+                            app:tint="@color/orange_yellow" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -165,8 +293,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/nunito_regular"
-                            android:text="1x Perhari"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/optional"
                             android:textAlignment="textEnd"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -182,9 +310,9 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
                             android:src="@drawable/ic_cup_coco"
-                            app:tint="@color/orange_yellow"
-                            android:contentDescription="@string/image_guide"/>
+                            app:tint="@color/orange_yellow" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -197,8 +325,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/nunito_regular"
-                            android:text="Opsional"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/optional"
                             android:textAlignment="textEnd"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -214,8 +342,8 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginEnd="10dp"
-                            android:src="@drawable/ic_time_service"
-                            android:contentDescription="@string/image_guide"/>
+                            android:contentDescription="@string/image_guide"
+                            android:src="@drawable/ic_clock_coco" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -228,8 +356,104 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/optional"
+                            android:textAlignment="textEnd"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="20dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
+                            android:src="@drawable/ic_smoke"
+                            app:tint="@color/red" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_regular"
-                            android:text="Opsional"
+                            android:text="@string/avoid_smoking"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/mandatory"
+                            android:textAlignment="textEnd"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="20dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
+                            android:src="@drawable/ic_change"
+                            app:tint="@color/blue_ivy" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="@string/change_brush"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/once_per_three_month"
+                            android:textAlignment="textEnd"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="20dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/image_guide"
+                            android:src="@drawable/ic_person"
+                            app:tint="@color/blue_ivy" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="@string/dentist_checkup"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:text="@string/once_per_six_month"
                             android:textAlignment="textEnd"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -771,7 +995,7 @@
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/nunito_extrabold"
                         android:gravity="center"
-                        android:text="@string/dentist_checkup"
+                        android:text="@string/change_brush"
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -789,11 +1013,64 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/nunito_regular"
                         android:justificationMode="inter_word"
-                        android:text="@string/dentist_checkup_desc"
+                        android:text="@string/change_brush_desc"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/treatment_11_title" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Treatment 12 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/treatment_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/treatment_11">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/card_border_treatment"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/treatment_12_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/nunito_extrabold"
+                        android:gravity="center"
+                        android:text="@string/dentist_checkup"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/treatment_12_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/nunito_regular"
+                        android:justificationMode="inter_word"
+                        android:text="@string/dentist_checkup_desc"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/treatment_12_title" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
