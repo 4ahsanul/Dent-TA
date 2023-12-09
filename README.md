@@ -1,17 +1,12 @@
-## Mobile Development
-This folder contain code of AiDentist Application
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
 
-**This App Using**
-- Retrofit
-- CameraX
-- Navigation
-- Android Architecture Component
-- Google Service
+## Introduction
+Kami melihat bahwa prevalensi penyakit gigi di Indonesia terus meningkat karena kurangnya akses pemeriksaan dan pengobatan penyakit gigi di berbagai daerah di Indonesia, terutama di daerah pedesaan. Melihat kebutuhan akan layanan gigi yang inklusif, menyentuh, dan mudah digunakan, kami memutuskan untuk membuat proyek ini. Sebuah aplikasi seluler menggunakan machine learning untuk mengklasifikasikan dan mengidentifikasi penyakit gigi, serta memberikan saran atau arahan yang sesuai berdasarkan hasil klasifikasi dan/atau identifikasi gambar/pemindaian mulut yang dikirimkan oleh pengguna ke dalam aplikasi.
 
-**Project Structure**
-- App
-- Data
-- UI
+## Features
+- Early scanning oral disesae
+- Daily treatment & medicine reminder
 
-**Notes**
-This app is under development
+[Demo Video](https://www.youtube.com/watch?v=b02cU1wFW0k)
